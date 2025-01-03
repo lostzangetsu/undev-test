@@ -1,217 +1,184 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
-];
+    { name: "About", link: "#about" },
+    { name: "Video's", link: "#projects" },
+    { name: "Review's", link: "#testimonials" },
+    { name: "Contact", link: "#contact" },
+  ];
+  
+  export const gridItems = [
+    {
+      id: 1,
+      title: "The club prioritize people collaboration, and open communication ",
+      description: "",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      imgClassName: "w-full h-full",
+      titleClassName: "justify-end",
+      img: "/b1.jpg",
+      spareImg: "",
+    },
+    {
+      id: 2,
+      title: "Accessible to coders across India.",
+      description: "",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+      imgClassName: "",
+      titleClassName: "justify-start",
+      img: "",
+      spareImg: "",
+    },
+    {
+      id: 3,
+      title: "Tech stack",
+      description: "Helping others to improve in different.",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+      imgClassName: "",
+      titleClassName: "justify-center",
+      img: "",
+      spareImg: "",
+    },
+    {
+      id: 4,
+      title: "Tech enthusiast with a passion for development.",
+      description: "",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      imgClassName: "",
+      titleClassName: "justify-start",
+      img: "/grid.svg",
+      spareImg: "/b4.svg",
+    },
+  
+    {
+      id: 5,
+      title: "Currently building a JS Developer Team",
+      description: "The Inside Scoop",
+      className: "md:col-span-3 md:row-span-2",
+      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+      titleClassName: "justify-center md:justify-start lg:justify-center",
+      img: "/b5.svg",
+      spareImg: "/grid.svg",
+    },
+    {
+      id: 6,
+      title: "Do you want to start a project together?",
+      description: "",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      imgClassName: "",
+      titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+      img: "",
+      spareImg: "",
+    },
+  ];
+  
+  export const projects = [
+    {
+      id: 1,
+      title: "Python Full Course for free 🐍",
+      des: "Learn Python, a beginner-friendly programming language, through step-by-step tutorials covering basics to advanced topics. Perfect for coding enthusiasts and future developers!.",
+      img: "/p1.jpg",
+      iconLists: ["/py.png"],
+      link: "https://youtu.be/rfscVS0vtbw?si=HAjLxue1KmX-rzB3",
+    },
+    {
+      id: 2,
+      title: "Java Programming for Beginners ☕",
+      des: "Master Java with easy-to-follow tutorials, from basics to advanced concepts. Ideal for building robust applications and enhancing your programming skills!",
+      img: "/p2.jpg",
+      iconLists: ["/java.png"],
+      link: "https://youtu.be/A74TOX803D0?si=hThY26LTESWfhv-n",
+    },
+    {
+      id: 3,
+      title: "Learn JavaScript - Full Course",
+      des: "Learn JavaScript from basics to advanced topics with step-by-step tutorials and hands-on examples. Perfect for beginners and aspiring web developers!",
+      img: "/p3.jpg",
+      iconLists: ["/js.png"],
+      link: "https://youtu.be/PkZNo7MFNFg?si=p1dqOFIatAYrICFy",
+    },
+    {
+      id: 4,
+      title: "C++ Tutorial for Beginners",
+      des: "Master C++ with beginner to advanced tutorials, covering key concepts and hands-on examples. Ideal for aspiring programmers and developers!",
+      img: "/p4.jpg",
+      iconLists: ["/c-logo.png"],
+      link: "https://youtu.be/vLnPwxZdW4Y?si=_DUDlh1SIb0pms25",
+    },
+  ];
+  
+  export const testimonials = [
+    {
+      quote:
+        "Joining this Coding Club has been an incredible experience! The opportunities for collaboration are endless, and the community is so welcoming. I’ve had the chance to work on several coding projects with members from different backgrounds, and it has helped me improve not only my coding skills but also my communication and teamwork abilities. The coding events are always engaging and challenging, and they provide a great environment to learn and grow. I highly recommend this club to anyone looking to connect with others, improve their coding, and participate in exciting events.",
+      name: "Ananya Verma",
+      title: "",
+    },
+    {
+      quote:
+        "The Coding Club has truly transformed my approach to coding. As a beginner, I was looking for a supportive space where I could collaborate with others, ask questions, and learn. This club has provided that and more. The members are always eager to share knowledge, and the events are designed to challenge your skills in a fun, interactive way. The communication within the group is amazing—everyone is willing to help and provide feedback. I’ve gained not just technical skills, but also confidence in my coding abilities. I’m grateful to be part of such a motivated and driven community.",
+      name: "Raghav Patel",
+      title: "",
+    },
+    {
+      quote:
+        "Being a part of the Coding Club has been one of the best decisions I’ve made for my programming journey. It’s not just about learning coding; it’s about growing as a developer and a communicator. The club hosts a variety of events ranging from coding challenges to collaborative projects, all of which help me push my limits. The best part is the sense of community—everyone is always open to new ideas, and there’s always someone willing to help you. The collaboration and feedback I’ve received have made me more confident in my coding skills and have broadened my understanding of different programming languages.",
+      name: "Priya Sharma",
+      title: "",
+    },
+    {
+      quote:
+        "I’ve been a member of the Coding Club for a few months now, and I can confidently say that it has significantly enhanced my coding experience. The club fosters an environment where collaboration and communication are key, and this has made working on projects with others incredibly smooth. Whether it’s debugging code together or brainstorming new ideas, there’s always a sense of teamwork. The events organized are well thought out and cater to developers of all skill levels. It’s a great space to not only sharpen your coding skills but also improve how you work in a team, which is invaluable in the tech world.",
+      name: "Arjun Singh",
+      title: "",
+    },
+    {
+      quote:
+        "Being part of this Coding Club has been an amazing experience! The club does an excellent job of balancing both collaboration and learning. I’ve had the opportunity to work on real-world coding projects with people who share the same passion for programming. The communication within the club is excellent—everyone is open to discussing ideas and helping each other out. The events are a great way to test your skills, whether it’s coding competitions or hackathons. I’ve learned so much from the events and the people I’ve collaborated with, and it has pushed me to be a better coder. It’s a wonderful community for anyone looking to improve their coding skills and work on meaningful projects.",
+      name: "Kunal Desai",
+      title: "",
+    },
+  ];
 
-export const gridItems = [
-  {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
-
-  {
-    id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
-];
-
-export const projects = [
-  {
-    id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-  },
-  {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-];
-
-export const socialMedia = [
-  {
-    id: 1,
-    img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
-  },
-];
+  export const workExperience = [
+    {
+      id: 1,
+      title: "Code Crafter (Coding Enthusiast)",
+      desc: "Enhance coding skills through challenges and collaborative projects. Learn problem-solving and debugging.",
+      className: "md:col-span-2",
+      thumbnail: "/exp1.svg",
+    },
+    {
+      id: 2,
+      title: "Tech Builder",
+      desc: "Master backend development, manage databases, and create APIs to power projects.",
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: "/exp2.svg",
+    },
+    {
+      id: 3,
+      title: "Idea Catalyst",
+      desc: "Turn creative ideas into impactful plans. Develop critical thinking and teamwork skills.",
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: "/exp3.svg",
+    },
+    {
+      id: 4,
+      title: "Creative Coder",
+      desc: "Design engaging and interactive web interfaces. Learn modern tools and best practices.",
+      className: "md:col-span-2",
+      thumbnail: "/exp4.svg",
+    },
+  ];
+  
+  export const socialMedia = [
+    {
+      id: 1,
+      img: "/git.svg",
+    },
+    {
+      id: 2,
+      img: "/next.svg",
+    },
+    {
+      id: 3,
+      img: "/js.png",
+    },
+  ];
